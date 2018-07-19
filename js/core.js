@@ -1,3 +1,5 @@
+// Original version of core.js
+
 const formObject = {
 	urlDelete : 'mod/delete.php',
 	

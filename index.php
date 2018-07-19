@@ -50,7 +50,7 @@ try {
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/core.js"></script>
+	<script src="js/core2.js"></script>
 </body>
 </html>
 
