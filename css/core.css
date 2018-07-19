@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 1rem;
+	color: #222;
+	line-height: 1.125rem;
+}
+
+#head {
+	text-align: center;
+	margin: 3rem auto;
+}
+
+#wrapper {
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.name {
+	font-size: 0.875rem;
+	color: #888;
+	font-style: italic;
+	display: block;
+	padding-bottom: 0.5rem;
+}
+
+.comment {
+	margin: 0.75rem auto;
+	border-bottom: 3px double #aaa;
+}
+
+.comment p {
+	margin: 0.5rem auto;
+	padding-bottom: 1rem;
+}
+
+.button {
+	display: block;
+	line-height: 1rem;
+	margin-top: -2px;
+	padding: 2px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background: url(/images/button.png) repeat-x 0 0 darkred;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.buttonGreen {
+	background: url(/images/button.png) repeat-x 0 -30px darkgreen;
+}
+
+.button:hover {
+	background-image: none;
+}
+
+.flr {
+	float: right;
+}
+
+.commentContent, .confirm {	
+	width: 450px;
+	margin: auto;
+}
+
+.confirm {
+	display: none;
+	background: #ccc;
+	font-size: 0.875rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	padding: 7px 10px;
+}
+
+.delConfirm {
+	text-decoration: none;
+	font-size: 0.875rem;
+}
+
+.mr4 {
+	margin-right: 4px;
+}
